@@ -246,9 +246,9 @@
         </div>
       </section>
     </main>
-    <!-- Footer -->
+   <!-- Footer -->
     <footer class="footer">
-      <div class="footer-comtainer container">
+      <div class="footer-container container">
         <div class="webstudio-contact">
           <a class="logo-footer-link logo" href="./">Web<span class="white">Studio</span></a>
           <address class="address">
@@ -305,7 +305,30 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-contact">
+          <h2 class="footer-contact-title">Подпишитесь на рассылку</h2>
+        <form class="footer-contact-form">
+          <span class="footer-contact-form-input-wrapper">
+              <input
+                class="footer-contact-form-input"
+                placeholder="E-mail"
+                type="email"
+                required
+                name="user_email"
+                pattern="+@"
+                title=""
+              />
+              <button type="submit" class="footer-contackt-form-btn">Подписаться
+                <svg class="footer-contact-form-icon">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg>
+              </button>
+            </span>
+        </div>
+        </form>
       </div>
     </footer>
+
   </body>
 </html>
